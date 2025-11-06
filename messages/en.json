@@ -1,0 +1,335 @@
+{
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "heading": "Free <primary>Consultation</primary> to Provide Suitable Workforce for Your Project",
+      "description": "Our team of experts is ready to help you choose the best talents and provide optimal solutions for your requirements"
+    },
+    "stats": {
+      "support": {
+        "value": "24/7",
+        "label": "24/7 Support"
+      },
+      "response": {
+        "value": "15 minutes",
+        "label": "Average Response Time"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    },
+    "methods": {
+      "phone": {
+        "title": "Call Us",
+        "description": "We are ready to answer your inquiries",
+        "details": "+966 12 345 6789",
+        "action": "Instant Call",
+        "link": "https://wa.me/966500339272"
+      },
+      "email": {
+        "title": "Email Us",
+        "description": "Send your message and we will respond within hours",
+        "details": "info@ABOSYAF.com",
+        "action": "Send Email",
+        "link": "https://mailto:maherad@gmail.com"
+      }
+    },
+    "consultation": {
+      "title": "Get a Free Specialized Consultation",
+      "description": "Leave your project details and one of our experts will contact you within 30 minutes to provide the optimal solution",
+      "buttons": {
+        "consultation": "Book Free Consultation",
+        "download": "Download Information Booklet",
+        "downloadLabel": "Download Information Booklet"
+      }
+    }
+  },
+  "features": {
+    "whyUs": "Why We Are the Optimal Choice",
+    "heading": "Experience in Providing Skilled Workforce from Asia",
+    "imageAlt": "Professional Team",
+    "features": {
+      "experience": "Over 10 years of experience in recruitment",
+      "trained": "Trained and qualified workforce",
+      "speed": "Fast execution",
+      "pricing": "Competitive prices",
+      "quality": "Quality guarantee",
+      "support": "Continuous technical support"
+    },
+    "description": "The leading company in employing domestic and specialized workforce in Saudi Arabia and Bangladesh. Al-Muraisi International was established in Saudi Arabia and Bangladesh, and has since distinguished itself by providing the best services for employing domestic workers, drivers, and specialized workforce from various nationalities. We have strong relationships with employment offices in labor-exporting countries, enabling us to provide the best competencies in the shortest time and at the best prices. We guarantee our clients reliable and highly efficient domestic staff and specialized workforce.",
+    "buttons": {
+      "start": "Start Your Project Now",
+      "consultation": "Free Consultation"
+    }
+  },
+  "footer": {
+    "companyName": "ABOSYAF",
+    "description": "We provide trained and reliable workforce across multiple specialties to meet the needs of individuals and companies",
+    "experience": "10 years of experience in providing skilled human resources",
+    "servicesTitle": "Services",
+    "additionalServices": "Additional Services",
+    "contactTitle": "Contact Us",
+    "services": {
+      "technical": "Technical Workforce",
+      "craft": "Crafts and Construction",
+      "domestic": "Domestic Workforce",
+      "agricultural": "Agricultural Workforce",
+      "administrative": "Administrative and Office",
+      "medical": "Medical",
+      "general": "General"
+    },
+    "contact": {
+      "phone": "+966 50 033 9272",
+      "email": "info@ABOSYAF.com",
+      "address": "Riyadh, Saudi Arabia"
+    },
+    "copyright": "© 2025 ABOSYAF. All rights reserved"
+  },
+  "header": {
+    "contactBar": {
+      "phone": "+966 12 345 6789",
+      "hours": "Sun-Thu: 8 AM - 5 PM"
+    },
+    "logo": {
+      "ariaLabel": "Home Page",
+      "companyName": "Al-Muraisi",
+      "international": "International"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "blog": "Blog",
+      "contact": "Contact Us"
+    },
+    "mobileMenu": {
+      "ariaLabel": "Open Menu",
+      "title": "Menu"
+    }
+  },
+  "services": {
+    "header": {
+      "subtitle": "Our Specialized Services",
+      "heading": "Comprehensive <primary>Solutions</primary> Covering All Your Requirements",
+      "description": "We provide an integrated package of trained workforce services to meet the needs of various sectors"
+    },
+    "services": {
+      "construction": {
+        "title": "Contracting and Construction",
+        "description": "Skilled workforce in construction and contracting"
+      },
+      "domestic": {
+        "title": "Domestic Service",
+        "description": "Trained and reliable domestic workers"
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Qualified nurses and healthcare assistants"
+      },
+      "hospitality": {
+        "title": "Hospitality and Hotels",
+        "description": "Professional and trained hotel staff"
+      },
+      "manufacturing": {
+        "title": "Manufacturing and Maintenance",
+        "description": "Specialized technicians and maintenance workers"
+      },
+      "administration": {
+        "title": "Administration and Offices",
+        "description": "Administrative staff and secretaries"
+      }
+    },
+    "discoverMore": "Discover More",
+    "customService": {
+      "text": "Can't find the service you're looking for? <highlight>Our team is ready to help you</highlight>",
+      "button": "Custom Free Consultation"
+    }
+  },
+  "hero": {
+    "slides": {
+      "0": {
+        "title": "We Provide All Types of Trained and Professional Workforce",
+        "description": "A reliable team to meet the needs of individuals and companies in all specialties"
+      },
+      "1": {
+        "title": "Reliable Workforce for All Sectors",
+        "description": "Technicians, construction workers, domestic assistants, and administrative and medical cadres"
+      },
+      "2": {
+        "title": "Fast Delivery and Quality Performance",
+        "description": "We guarantee the arrival of the right worker within 24 hours with continuous follow-up"
+      },
+      "3": {
+        "title": "Flexible Contracts Suiting All Needs",
+        "description": "Daily, temporary, permanent - with replacement guarantee and follow-up"
+      }
+    },
+    "buttons": {
+      "requestWorker": "Request a Worker Now",
+      "browseSpecialties": "Browse Specialties"
+    }
+  },
+  "process": {
+    "header": {
+      "subtitle": "How We Work",
+      "heading": "Simple and Reliable Process for Workforce Provision",
+      "description": "We guarantee you get the right worker with clear and direct steps"
+    },
+    "steps": {
+      "0": {
+        "title": "Service Selection",
+        "description": "Choose the category or tell us your detailed need"
+      },
+      "1": {
+        "title": "Matching and Quick Offer",
+        "description": "We send qualified candidates within 24 hours"
+      },
+      "2": {
+        "title": "Short Trial",
+        "description": "Paid trial option to ensure suitability"
+      },
+      "3": {
+        "title": "Employment and Follow-up",
+        "description": "Contract signing and support follow-up for 14 days"
+      }
+    },
+    "cta": {
+      "description": "Start your journey with us today and get the right workforce",
+      "button": "Start Now"
+    }
+  },
+  "specializations": {
+    "header": {
+      "subtitle": "Professional Specializations",
+      "heading": "Professional <primary>Human</primary> Resources for All Sectors",
+      "description": "We provide trained and reliable workforce across multiple specialties to meet the needs of individuals and companies"
+    },
+    "categories": {
+      "technical": {
+        "name": "Technical Workforce",
+        "count": "870+",
+        "description": "Specialized technicians in maintenance and repair"
+      },
+      "construction": {
+        "name": "Crafts and Construction",
+        "count": "670+",
+        "description": "Craftsmen and professional construction teams"
+      },
+      "domestic": {
+        "name": "Domestic Workforce",
+        "count": "660+",
+        "description": "Trained and reliable domestic staff"
+      },
+      "agricultural": {
+        "name": "Agricultural Workforce",
+        "count": "255+",
+        "description": "Specialized agricultural workforce"
+      },
+      "administrative": {
+        "name": "Administrative and Office",
+        "count": "345+",
+        "description": "Professional administrative cadres"
+      },
+      "medical": {
+        "name": "Medical",
+        "count": "160+",
+        "description": "Qualified medical competencies"
+      },
+      "general": {
+        "name": "General",
+        "count": "600+",
+        "description": "Trained general workforce"
+      }
+    },
+    "levels": {
+      "professional": "Professional",
+      "advanced": "Advanced",
+      "intermediate": "Intermediate",
+      "trained": "Trained",
+      "specialized": "Specialized"
+    },
+    "specializations": {
+      "electrician": "Electrician",
+      "plumber": "Plumber",
+      "acTechnician": "AC Technician",
+      "painter": "Painter and Decorator",
+      "carpenter": "Carpenter and Blacksmith",
+      "tileInstaller": "Tile Installer",
+      "constructionWorker": "Construction Workers",
+      "blacksmith": "Blacksmiths",
+      "woodWorker": "Carpenters",
+      "tileWorker": "Tile Workers",
+      "painterConstruction": "Painters",
+      "cleaner": "Cleaning Workers",
+      "chef": "Chefs",
+      "nanny": "Child Caregivers",
+      "driver": "Private Drivers",
+      "security": "Security Guards",
+      "farmer": "Farmers",
+      "farmWorker": "Farm Workers",
+      "irrigationWorker": "Irrigation and Planting Workers",
+      "secretary": "Secretaries",
+      "receptionist": "Reception Staff",
+      "accountant": "Accountants",
+      "salesRep": "Sales Representatives",
+      "nurse": "Nurses",
+      "healthTech": "Health Technicians",
+      "homeCare": "Home Care Workers",
+      "loader": "Loading and Unloading Workers",
+      "generalCleaner": "General Cleaning Workers",
+      "factoryWorker": "Warehouse and Factory Workers"
+    },
+    "detailedSpecializations": {
+      "title": "Detailed Specializations",
+      "availableWorkers": "+3,560 Workers Available"
+    },
+    "quality": {
+      "inspection": {
+        "title": "Inspection and Accreditation",
+        "description": "All workforce undergoes thorough inspection and professional accreditation"
+      },
+      "training": {
+        "title": "Specialized Training",
+        "description": "Continuous training programs to enhance professional efficiency"
+      },
+      "followup": {
+        "title": "Continuous Follow-up",
+        "description": "Continuous monitoring of workforce performance and customer satisfaction"
+      }
+    }
+  },
+  "stats": {
+    "stats": {
+      "workers": {
+        "number": "2,340+",
+        "label": "Workers Available"
+      },
+      "completed": {
+        "number": "1,274+",
+        "label": "Completed Requests"
+      },
+      "companies": {
+        "number": "150+",
+        "label": "Partner Companies"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Customer Satisfaction"
+      }
+    }
+  },
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8275531688713!2d39.14592231500154!3d21.54978928572883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3daacbf013871%3A0xa4ee42a1900674de!2z2KfZhNiv2YfYrNiz2KjYsdmG2Kkg2KfZhNi52YbYp9mE2KfYqSDYp9mE2LnYqNmK2Kkg2YjYsdmD2YrYqg!5e0!3m2!1sar!2ssa!4v1700000000000!5m2!1sar!2ssa",
+    "ariaLabel": "Location Map"
+  },
+  "localeSwitcher": {
+    "ariaLabel": "Switch Language",
+    "languages": {
+      "english": "English",
+      "arabic": "العربية",
+      "en": "EN",
+      "ar": "AR"
+    }
+  }
+}

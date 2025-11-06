@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "header": {
+      "title": "تواصل معنا",
+      "heading": "استشارة <primary>مجانية</primary> لتوفير العمالة المناسبة لمشروعك",
+      "description": "فريقنا من الخبراء جاهز لمساعدتك في اختيار أفضل الكفاءات وتقديم الحلول المثالية لمتطلباتك"
+    },
+    "stats": {
+      "support": {
+        "value": "24/7",
+        "label": "دعم على مدار الساعة"
+      },
+      "response": {
+        "value": "15 دقيقة",
+        "label": "متوسط وقت الرد"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "رضا العملاء"
+      }
+    },
+    "methods": {
+      "phone": {
+        "title": "اتصل بنا",
+        "description": "نحن على استعداد للإجابة على استفساراتك",
+        "details": "+966 12 345 6789",
+        "action": "اتصال فوري",
+        "link": "https://wa.me/966500339272"
+      },
+      "email": {
+        "title": "راسلنا عبر البريد",
+        "description": "أرسل رسالتك وسنرد عليك خلال ساعات",
+        "details": "info@ABOSYAF.com",
+        "action": "إرسال بريد",
+        "link": "https://mailto:maherad@gmail.com"
+      }
+    },
+    "consultation": {
+      "title": "احصل على استشارة متخصصة مجانية",
+      "description": "اترك تفاصيل مشروعك وسيقوم أحد خبرائنا بالاتصال بك خلال 30 دقيقة لتقديم الحل الأمثل",
+      "buttons": {
+        "consultation": "احجز استشارة مجانية",
+        "download": "تحميل الكتيب التعريفي",
+        "downloadLabel": "تحميل الكتيب التعريفي"
+      }
+    }
+  },
+  "features": {
+    "whyUs": "لماذا نحن الخيار الأمثل",
+    "heading": "خبرة توفير عمالة ماهرة من آسيا",
+    "imageAlt": "فريق العمل المحترف",
+    "features": {
+      "experience": "خبرة أكثر من 10 سنوات في مجال الاستقدام",
+      "trained": "عمالة مدربة ومؤهلة",
+      "speed": "سرعة في الإنجاز",
+      "pricing": "أسعار تنافسية",
+      "quality": "ضمان الجودة",
+      "support": "دعم فني متواصل"
+    },
+    "description": "الشركة الرائدة في توظيف العمالة المنزلية والعمالة المتخصصة بالسعودية وبنغلاديش. تأسست شركة ألموريسي إنترنتيونل في المملكة العربية السعودية وبنغلاديش، وتميزت منذ ذلك الحين بتقديم أفضل خدمات توظيف العاملات المنزليات، السائقين والعمالة المتخصصة من مختلف الجنسيات. نتميز بعلاقات قوية مع مكاتب التوظيف في الدول المصدرة للعمالة، مما يمكننا من تقديم أفضل الكفاءات بأسرع وقت وأفضل الأسعار. نضمن لعملائنا موظفين منزليين وعمالة متخصصة موثوقين وذوي كفاءة عالية.",
+    "buttons": {
+      "start": "ابدأ مشروعك الآن",
+      "consultation": "استشارة مجانية"
+    }
+  },
+  "footer": {
+    "companyName": "ABOSYAF",
+    "description": "نوفر عمالة مدرَّبة وموثوقة عبر تخصصات متعددة لتلبية احتياجات الأفراد والشركات",
+    "experience": "خبرة 10 سنوات في توفير الكفاءات البشرية الماهرة",
+    "servicesTitle": "الخدمات",
+    "additionalServices": "خدمات إضافية",
+    "contactTitle": "تواصل معنا",
+    "services": {
+      "technical": "العمالة الفنية",
+      "craft": "الحرف والإنشاء",
+      "domestic": "العمالة المنزلية",
+      "agricultural": "العمالة الزراعية",
+      "administrative": "إدارية ومكتبية",
+      "medical": "طبية",
+      "general": "عامة"
+    },
+    "contact": {
+      "phone": "+966 50 033 9272",
+      "email": "info@ABOSYAF.com",
+      "address": "الرياض، المملكة العربية السعودية"
+    },
+    "copyright": "© 2025 ABOSYAF. جميع الحقوق محفوظة"
+  },
+  "header": {
+    "contactBar": {
+      "phone": "+966 12 345 6789",
+      "hours": "أحد- خميس: 8 ص - 5 م"
+    },
+    "logo": {
+      "ariaLabel": "الصفحة الرئيسية",
+      "companyName": "Al-Muraisi",
+      "international": "International"
+    },
+    "nav": {
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "services": "خدماتنا",
+      "blog": "المدونة",
+      "contact": "اتصل بنا"
+    },
+    "mobileMenu": {
+      "ariaLabel": "فتح القائمة",
+      "title": "القائمة"
+    }
+  },
+  "services": {
+    "header": {
+      "subtitle": "خدماتنا المتخصصة",
+      "heading": "حلول <primary>شمولية</primary> تغطي جميع متطلباتك",
+      "description": "نقدم مجموعة متكاملة من خدمات توفير العمالة المدربة لتلبية احتياجات القطاعات المختلفة"
+    },
+    "services": {
+      "construction": {
+        "title": "المقاولات والبناء",
+        "description": "عمالة ماهرة في البناء والتشييد والمقاولات"
+      },
+      "domestic": {
+        "title": "الخدمة المنزلية",
+        "description": "عاملات منزليات مدربات وموثوقات"
+      },
+      "healthcare": {
+        "title": "الرعاية الصحية",
+        "description": "ممرضين ومساعدي رعاية صحية مؤهلين"
+      },
+      "hospitality": {
+        "title": "الضيافة والفنادق",
+        "description": "طاقم فندقي محترف ومدرب"
+      },
+      "manufacturing": {
+        "title": "التصنيع والصيانة",
+        "description": "فنيين وعمال صيانة متخصصين"
+      },
+      "administration": {
+        "title": "الإدارة والمكاتب",
+        "description": "موظفين إداريين وسكرتارية"
+      }
+    },
+    "discoverMore": "اكتشف المزيد",
+    "customService": {
+      "text": "لا تجد الخدمة التي تبحث عنها؟ <highlight>فريقنا جاهز لمساعدتك</highlight>",
+      "button": "استشارة مجانية مخصصة"
+    }
+  },
+  "hero": {
+    "slides": {
+      "0": {
+        "title": "نوفر جميع أنواع العمالة المدربة والمحترفة",
+        "description": "فريق موثوق لتلبية احتياجات الأفراد والشركات في جميع التخصصات"
+      },
+      "1": {
+        "title": "عمالة موثوقة لجميع القطاعات",
+        "description": "فنيون، عمال بناء، مساعدون منزليون، وكوادر إدارية وطبية"
+      },
+      "2": {
+        "title": "سرعة في التوصيل وجودة في الأداء",
+        "description": "نضمن وصول العامل المناسب خلال 24 ساعة مع متابعة مستمرة"
+      },
+      "3": {
+        "title": "عقود مرنة تناسب جميع الاحتياجات",
+        "description": "يومية، مؤقتة، دائمة - مع ضمان الاستبدال والمتابعة"
+      }
+    },
+    "buttons": {
+      "requestWorker": "اطلب عامل الآن",
+      "browseSpecialties": "تصفح التخصصات"
+    }
+  },
+  "process": {
+    "header": {
+      "subtitle": "كيف نعمل",
+      "heading": "عملية بسيطة وموثوقة لتوفير العمالة",
+      "description": "نضمن لك الحصول على العامل المناسب بخطوات واضحة ومباشرة"
+    },
+    "steps": {
+      "0": {
+        "title": "اختيار الخدمة",
+        "description": "اختر الفئة أو أخبرنا بالاحتياج التفصيلي"
+      },
+      "1": {
+        "title": "مطابقة وسرعة العرض",
+        "description": "نرسل مرشحين مؤهلين خلال 24 ساعة"
+      },
+      "2": {
+        "title": "تجربة قصيرة",
+        "description": "خيار تجربة مدفوعة للتأكد من الملاءمة"
+      },
+      "3": {
+        "title": "توظيف ومتابعة",
+        "description": "توقيع عقد ومتابعة دعم لمدة 14 يوم"
+      }
+    },
+    "cta": {
+      "description": "ابدا رحلتك معنا اليوم واحصل على العمالة المناسبة",
+      "button": "ابدأ الآن"
+    }
+  },
+   "specializations": {
+    "header": {
+      "subtitle": "التخصصات المهنية",
+      "heading": "كوادر بشرية <primary>محترفة</primary> لجميع القطاعات",
+      "description": "نوفر عمالة مدربة وموثوقة عبر تخصصات متعددة لتلبية احتياجات الأفراد والشركات"
+    },
+    "categories": {
+      "technical": {
+        "name": "العمالة الفنية",
+        "count": "870+",
+        "description": "فنيون متخصصون في الصيانة والإصلاح"
+      },
+      "construction": {
+        "name": "الحرف والإنشاء",
+        "count": "670+",
+        "description": "حرفيون وفرق بناء محترفة"
+      },
+      "domestic": {
+        "name": "العمالة المنزلية",
+        "count": "660+",
+        "description": "طاقم منزلي مدرب وموثوق"
+      },
+      "agricultural": {
+        "name": "العمالة الزراعية",
+        "count": "255+",
+        "description": "عمالة زراعية متخصصة"
+      },
+      "administrative": {
+        "name": "إدارية ومكتبية",
+        "count": "345+",
+        "description": "كوادر إدارية محترفة"
+      },
+      "medical": {
+        "name": "طبية",
+        "count": "160+",
+        "description": "كفاءات طبية مؤهلة"
+      },
+      "general": {
+        "name": "عامة",
+        "count": "600+",
+        "description": "عمالة عامة مدربة"
+      }
+    },
+    "levels": {
+      "professional": "محترف",
+      "advanced": "متقدم",
+      "intermediate": "متوسط",
+      "trained": "مدرب",
+      "specialized": "متخصص"
+    },
+    "specializations": {
+      "electrician": "فني كهرباء",
+      "plumber": "فني سباكة",
+      "acTechnician": "فني تكييف وتبريد",
+      "painter": "فني دهان وديكور",
+      "carpenter": "فني نجارة وحدادة",
+      "tileInstaller": "فني تركيب سيراميك",
+      "constructionWorker": "عمال بناء",
+      "blacksmith": "حدادين",
+      "woodWorker": "نجارين",
+      "tileWorker": "بلاطين",
+      "painterConstruction": "دهانين",
+      "cleaner": "عاملات نظافة",
+      "chef": "طباخات",
+      "nanny": "مربيات أطفال",
+      "driver": "سائقين خاصين",
+      "security": "حراس أمن",
+      "farmer": "مزارعين",
+      "farmWorker": "عمال مزارع",
+      "irrigationWorker": "عمال ري وتشجير",
+      "secretary": "سكرتارية",
+      "receptionist": "موظفي استقبال",
+      "accountant": "محاسبين",
+      "salesRep": "مندوبي مبيعات",
+      "nurse": "ممرضين وممرضات",
+      "healthTech": "فنيين صحيين",
+      "homeCare": "عاملين رعاية منزلية",
+      "loader": "عمال تحميل وتنزيل",
+      "generalCleaner": "عمال نظافة عامة",
+      "factoryWorker": "عمال مخازن ومصانع"
+    },
+    "detailedSpecializations": {
+      "title": "التخصصات التفصيلية",
+      "availableWorkers": "+3,560 عامل متوفر"
+    },
+    "quality": {
+      "inspection": {
+        "title": "فحص واعتماد",
+        "description": "جميع العمالة تخضع لفحص دقيق واعتماد مهني"
+      },
+      "training": {
+        "title": "تدريب متخصص",
+        "description": "برامج تدريب مستمرة لرفع الكفاءة المهنية"
+      },
+      "followup": {
+        "title": "متابعة مستمرة",
+        "description": "متابعة أداء العمالة ورضا العملاء بشكل دائم"
+      }
+    }
+  },
+  "stats": {
+    "stats": {
+      "workers": {
+        "number": "2,340+",
+        "label": "عامل متاح"
+      },
+      "completed": {
+        "number": "1,274+",
+        "label": "طلب مكتمل"
+      },
+      "companies": {
+        "number": "150+",
+        "label": "شركة شريكة"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "رضا العملاء"
+      }
+    }
+  },
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8275531688713!2d39.14592231500154!3d21.54978928572883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3daacbf013871%3A0xa4ee42a1900674de!2z2KfZhNiv2YfYrNiz2KjYsdmG2Kkg2KfZhNi52YbYp9mE2KfYqSDYp9mE2LnYqNmK2Kkg2YjYsdmD2YrYqg!5e0!3m2!1sar!2ssa!4v1700000000000!5m2!1sar!2ssa",
+    "ariaLabel": "خريطة الموقع"
+  }
+}
