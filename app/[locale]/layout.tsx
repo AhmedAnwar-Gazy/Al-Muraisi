@@ -6,31 +6,83 @@ import '@/app/globals.css'
 // import Navbar from '@/components/NavBar';
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Example Store – Shop the Best Deals Online",
-  description: "Shop electronics, fashion, and more at Example Store. Spend less, smile more!",
-  metadataBase: new URL("https://www.example.com"),
-  openGraph: {
-    title: "Example Store – Shop the Best Deals Online",
-    description: "Find top products at unbeatable prices. Fast shipping and secure payments.",
-    url: "https://www.example.com",
-    siteName: "Example Store",
-    images: [
-      {
-        url: "https://www.example.com/copengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Example Store Open Graph Image",
+
+
+export async function generateMetadata({ params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+
+  const {locale} = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const t = (key: string) =>
+    messages.metadata[key as keyof typeof messages.metadata];
+
+  const domain = "https://www.almureisi.com";
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+    authors: [{ name: t("authorName"), url: domain }],
+    creator: t("creator"),
+    publisher: t("publisher"),
+    metadataBase: new URL(domain),
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      url: `${domain}/${locale}`,
+      siteName: t("siteName"),
+      images: [
+        {
+          url: `${domain}/opengraph-image.png`,
+          width: 1200,
+          height: 630,
+          alt: t("ogAlt"),
+        },
+      ],
+      locale: locale === "ar" ? "ar_SA" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("twitterTitle"),
+      description: t("twitterDescription"),
+      images: [`${domain}/twitter-card.png`],
+      creator: "@almureisi",
+    },
+    alternates: {
+      canonical: `${domain}/${locale}`,
+      languages: {
+        ar: `${domain}/ar`,
+        en: `${domain}/en`,
       },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  alternates: {
-    canonical: "https://www.example.com",
-  },
-};
- 
+    },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/apple-touch-icon.png",
+    },
+    category: t("category"),
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+  };
+}
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
 }
