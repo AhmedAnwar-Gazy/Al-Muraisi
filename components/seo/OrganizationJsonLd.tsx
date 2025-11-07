@@ -1,7 +1,4 @@
 
-
-import React from 'react';
-
 interface Props {
   locale: string;
   name: string;

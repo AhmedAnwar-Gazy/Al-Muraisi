@@ -1,22 +1,20 @@
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
-import { setRequestLocale } from 'next-intl/server';
-import '@/app/globals.css'
-// import Navbar from '@/components/NavBar';
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import { setRequestLocale } from "next-intl/server";
+import "@/app/globals.css";
 import type { Metadata } from "next";
 
+import OrganizationJsonLd from "@/components/seo/OrganizationJsonLd";
+import WebsiteJsonLd from "@/components/seo/WebsiteJsonLd";
 
-
-export async function generateMetadata({ params
+export async function generateMetadata({
+  params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-
-  const {locale} = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
 
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const t = (key: string) =>
@@ -84,30 +82,44 @@ export async function generateMetadata({ params
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
+  return routing.locales.map((locale) => ({ locale }));
 }
- 
+
 export default async function RootLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }) {
-  const {locale} = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
+
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const t = (key: string) =>
+    messages.metadata[key as keyof typeof messages.metadata];
+  const domain = "https://www.almureisi.com";
 
   setRequestLocale(locale);
- 
+
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+      <head>
+        {/* ✅ Structured Data Components */}
+        <OrganizationJsonLd
+          locale={locale}
+          name={t("siteName")}
+          description={t("description")}
+          domain={domain}
+        />
+        <WebsiteJsonLd
+          locale={locale}
+          domain={domain}
+          siteName={t("siteName")}
+        />
+      </head>
       <body>
-        <NextIntlClientProvider>
-          {/* <Navbar /> */}
-          {children}
-        </NextIntlClientProvider>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
