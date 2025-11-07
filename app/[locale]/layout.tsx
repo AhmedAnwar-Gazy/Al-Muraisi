@@ -4,9 +4,12 @@ import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import "@/app/globals.css";
 import type { Metadata } from "next";
-
 import OrganizationJsonLd from "@/components/seo/OrganizationJsonLd";
 import WebsiteJsonLd from "@/components/seo/WebsiteJsonLd";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+
+
 
 export async function generateMetadata({
   params,
@@ -119,7 +122,11 @@ export default async function RootLayout({
         />
       </head>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+            {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

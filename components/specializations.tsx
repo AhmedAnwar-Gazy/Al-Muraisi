@@ -28,6 +28,7 @@ import {
   Settings
 } from "lucide-react";
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export function Specializations() {
   const t = useTranslations('specializations');
@@ -38,96 +39,105 @@ export function Specializations() {
       count: t('categories.technical.count'),
       icon: Settings,
       color: "from-blue-500 to-cyan-600",
-      description: t('categories.technical.description')
+      description: t('categories.technical.description'),
+      slug: "technical"
     },
     {
       name: t('categories.construction.name'),
       count: t('categories.construction.count'),
       icon: Building,
       color: "from-orange-500 to-amber-600",
-      description: t('categories.construction.description')
+      description: t('categories.construction.description'),
+      slug: "construction"
     },
     {
       name: t('categories.domestic.name'),
       count: t('categories.domestic.count'),
       icon: Home,
       color: "from-green-500 to-emerald-600",
-      description: t('categories.domestic.description')
+      description: t('categories.domestic.description'),
+      slug: "domestic"
     },
     {
       name: t('categories.agricultural.name'),
       count: t('categories.agricultural.count'),
       icon: Sprout,
       color: "from-lime-500 to-green-600",
-      description: t('categories.agricultural.description')
+      description: t('categories.agricultural.description'),
+      slug: "agricultural"
     },
     {
       name: t('categories.administrative.name'),
       count: t('categories.administrative.count'),
       icon: Briefcase,
       color: "from-purple-500 to-indigo-600",
-      description: t('categories.administrative.description')
+      description: t('categories.administrative.description'),
+      slug: "administrative"
     },
     {
       name: t('categories.medical.name'),
       count: t('categories.medical.count'),
       icon: HeartPulse,
       color: "from-rose-500 to-red-600",
-      description: t('categories.medical.description')
+      description: t('categories.medical.description'),
+      slug: "medical"
     },
     {
       name: t('categories.general.name'),
       count: t('categories.general.count'),
       icon: Users,
       color: "from-gray-600 to-blue-700",
-      description: t('categories.general.description')
+      description: t('categories.general.description'),
+      slug: "general"
     }
   ];
 
   const specializations = [
+
     // العمالة الفنية
-    { title: t('specializations.electrician'), icon: Zap, category: t('categories.technical.name'), level: t('levels.professional') },
-    { title: t('specializations.plumber'), icon: Wrench, category: t('categories.technical.name'), level: t('levels.professional') },
-    { title: t('specializations.acTechnician'), icon: Wind, category: t('categories.technical.name'), level: t('levels.advanced') },
-    { title: t('specializations.painter'), icon: Paintbrush, category: t('categories.technical.name'), level: t('levels.advanced') },
-    { title: t('specializations.carpenter'), icon: Hammer, category: t('categories.technical.name'), level: t('levels.professional') },
-    { title: t('specializations.tileInstaller'), icon: Drill, category: t('categories.technical.name'), level: t('levels.intermediate') },
+    { title: t('specializationsdata.electrician.title'), icon: Zap, category: t('categories.technical.name'), level: t('levels.professional'), slug: "electrician" },
+    { title: t('specializationsdata.plumber.title'), icon: Wrench, category: t('categories.technical.name'), level: t('levels.professional'), slug: "plumber" },
+    { title: t('specializationsdata.acTechnician.title'), icon: Wind, category: t('categories.technical.name'), level: t('levels.advanced'), slug: "acTechnician" },
+    { title: t('specializationsdata.painter.title'), icon: Paintbrush, category: t('categories.technical.name'), level: t('levels.advanced'), slug: "painter" },
+    { title: t('specializationsdata.carpenter.title'), icon: Hammer, category: t('categories.technical.name'), level: t('levels.professional'), slug: "carpenter" },
+    { title: t('specializationsdata.tileInstaller.title'), icon: Drill, category: t('categories.technical.name'), level: t('levels.intermediate'), slug: "tileInstaller" },
 
     // العمالة الحرفية والإنشائية
-    { title: t('specializations.constructionWorker'), icon: Users, category: t('categories.construction.name'), level: t('levels.intermediate') },
-    { title: t('specializations.blacksmith'), icon: Hammer, category: t('categories.construction.name'), level: t('levels.professional') },
-    { title: t('specializations.woodWorker'), icon: Drill, category: t('categories.construction.name'), level: t('levels.professional') },
-    { title: t('specializations.tileWorker'), icon: Paintbrush, category: t('categories.construction.name'), level: t('levels.advanced') },
-    { title: t('specializations.painterConstruction'), icon: Paintbrush, category: t('categories.construction.name'), level: t('levels.advanced') },
+    { title: t('specializationsdata.constructionWorker.title'), icon: Users, category: t('categories.construction.name'), level: t('levels.intermediate'), slug: "constructionWorker" },
+    { title: t('specializationsdata.blacksmith.title'), icon: Hammer, category: t('categories.construction.name'), level: t('levels.professional'), slug: "blacksmith" },
+    { title: t('specializationsdata.woodWorker.title'), icon: Drill, category: t('categories.construction.name'), level: t('levels.professional'), slug: "woodWorker" },
+    { title: t('specializationsdata.tileWorker.title'), icon: Paintbrush, category: t('categories.construction.name'), level: t('levels.advanced'), slug: "tileWorker" },
+    { title: t('specializationsdata.painterConstruction.title'), icon: Paintbrush, category: t('categories.construction.name'), level: t('levels.advanced'), slug: "painterConstruction" },
 
     // العمالة المنزلية
-    { title: t('specializations.cleaner'), icon: Sparkles, category: t('categories.domestic.name'), level: t('levels.trained') },
-    { title: t('specializations.chef'), icon: ChefHat, category: t('categories.domestic.name'), level: t('levels.professional') },
-    { title: t('specializations.nanny'), icon: Users, category: t('categories.domestic.name'), level: t('levels.trained') },
-    { title: t('specializations.driver'), icon: Car, category: t('categories.domestic.name'), level: t('levels.professional') },
-    { title: t('specializations.security'), icon: Shield, category: t('categories.domestic.name'), level: t('levels.trained') },
+    { title: t('specializationsdata.cleaner.title'), icon: Sparkles, category: t('categories.domestic.name'), level: t('levels.trained'), slug: "cleaner" },
+    { title: t('specializationsdata.chef.title'), icon: ChefHat, category: t('categories.domestic.name'), level: t('levels.professional'), slug: "chef" },
+    { title: t('specializationsdata.nanny.title'), icon: Users, category: t('categories.domestic.name'), level: t('levels.trained'), slug: "nanny" },
+    { title: t('specializationsdata.driver.title'), icon: Car, category: t('categories.domestic.name'), level: t('levels.professional'), slug: "driver" },
+    { title: t('specializationsdata.security.title'), icon: Shield, category: t('categories.domestic.name'), level: t('levels.trained'), slug: "security" },
 
     // العمالة الزراعية
-    { title: t('specializations.farmer'), icon: Trees, category: t('categories.agricultural.name'), level: t('levels.specialized') },
-    { title: t('specializations.farmWorker'), icon: Trees, category: t('categories.agricultural.name'), level: t('levels.trained') },
-    { title: t('specializations.irrigationWorker'), icon: Droplets, category: t('categories.agricultural.name'), level: t('levels.trained') },
+    { title: t('specializationsdata.farmer.title'), icon: Trees, category: t('categories.agricultural.name'), level: t('levels.specialized'), slug: "farmer" },
+    { title: t('specializationsdata.farmWorker.title'), icon: Trees, category: t('categories.agricultural.name'), level: t('levels.trained'), slug: "farmWorker" },
+    { title: t('specializationsdata.irrigationWorker.title'), icon: Droplets, category: t('categories.agricultural.name'), level: t('levels.trained'), slug: "irrigationWorker" },
 
     // العمالة الإدارية والمكتبية
-    { title: t('specializations.secretary'), icon: Users, category: t('categories.administrative.name'), level: t('levels.professional') },
-    { title: t('specializations.receptionist'), icon: Users, category: t('categories.administrative.name'), level: t('levels.trained') },
-    { title: t('specializations.accountant'), icon: Calculator, category: t('categories.administrative.name'), level: t('levels.professional') },
-    { title: t('specializations.salesRep'), icon: TrendingUp, category: t('categories.administrative.name'), level: t('levels.advanced') },
+    { title: t('specializationsdata.secretary.title'), icon: Users, category: t('categories.administrative.name'), level: t('levels.professional'), slug: "secretary" },
+    { title: t('specializationsdata.receptionist.title'), icon: Users, category: t('categories.administrative.name'), level: t('levels.trained'), slug: "receptionist" },
+    { title: t('specializationsdata.accountant.title'), icon: Calculator, category: t('categories.administrative.name'), level: t('levels.professional'), slug: "accountant" },
+    { title: t('specializationsdata.salesRep.title'), icon: TrendingUp, category: t('categories.administrative.name'), level: t('levels.advanced'), slug: "salesRep" },
 
     // العمالة الطبية
-    { title: t('specializations.nurse'), icon: Stethoscope, category: t('categories.medical.name'), level: t('levels.specialized') },
-    { title: t('specializations.healthTech'), icon: Heart, category: t('categories.medical.name'), level: t('levels.specialized') },
-    { title: t('specializations.homeCare'), icon: Heart, category: t('categories.medical.name'), level: t('levels.trained') },
+    { title: t('specializationsdata.nurse.title'), icon: Stethoscope, category: t('categories.medical.name'), level: t('levels.specialized'), slug: "nurse" },
+    { title: t('specializationsdata.healthTech.title'), icon: Heart, category: t('categories.medical.name'), level: t('levels.specialized'), slug: "healthTech" },
+    { title: t('specializationsdata.homeCare.title'), icon: Heart, category: t('categories.medical.name'), level: t('levels.trained'), slug: "homeCare" },
 
     // العمالة العامة
-    { title: t('specializations.loader'), icon: Package, category: t('categories.general.name'), level: t('levels.trained') },
-    { title: t('specializations.generalCleaner'), icon: Sparkles, category: t('categories.general.name'), level: t('levels.trained') },
-    { title: t('specializations.factoryWorker'), icon: Factory, category: t('categories.general.name'), level: t('levels.trained') },
+    { title: t('specializationsdata.loader.title'), icon: Package, category: t('categories.general.name'), level: t('levels.trained'), slug: "loader" },
+    { title: t('specializationsdata.generalCleaner.title'), icon: Sparkles, category: t('categories.general.name'), level: t('levels.trained'), slug: "generalCleaner" },
+    { title: t('specializationsdata.factoryWorker.title'), icon: Factory, category: t('categories.general.name'), level: t('levels.trained'), slug: "factoryWorker" },
   ];
+
 
   const getLevelColor = (level: string) => {
     switch (level) {
@@ -162,33 +172,43 @@ export function Specializations() {
         {/* إحصائيات الفئات الرئيسية */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {serviceCategories.slice(0, 4).map((category, index) => (
-            <Card 
+            <Link 
               key={index}
-              className="p-6 text-center border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              href={`/specializations/${category.slug}`}
+              className="block"
             >
-              <div className={`bg-gradient-to-br ${category.color} w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                <category.icon className="h-7 w-7 text-white" />
-              </div>
-              <div className="text-2xl font-bold text-gray-900 mb-1">{category.count}</div>
-              <div className="font-semibold text-gray-800 mb-2">{category.name}</div>
-              <div className="text-sm text-gray-500">{category.description}</div>
-            </Card>
+              <Card 
+                className="p-6 text-center border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              >
+                <div className={`bg-gradient-to-br ${category.color} w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                  <category.icon className="h-7 w-7 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">{category.count}</div>
+                <div className="font-semibold text-gray-800 mb-2">{category.name}</div>
+                <div className="text-sm text-gray-500">{category.description}</div>
+              </Card>
+            </Link>
           ))}
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {serviceCategories.slice(4).map((category, index) => (
-            <Card 
+            <Link 
               key={index}
-              className="p-6 text-center border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              href={`/specializations/${category.slug}`}
+              className="block"
             >
-              <div className={`bg-gradient-to-br ${category.color} w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                <category.icon className="h-7 w-7 text-white" />
-              </div>
-              <div className="text-2xl font-bold text-gray-900 mb-1">{category.count}</div>
-              <div className="font-semibold text-gray-800 mb-2">{category.name}</div>
-              <div className="text-sm text-gray-500">{category.description}</div>
-            </Card>
+              <Card 
+                className="p-6 text-center border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              >
+                <div className={`bg-gradient-to-br ${category.color} w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                  <category.icon className="h-7 w-7 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">{category.count}</div>
+                <div className="font-semibold text-gray-800 mb-2">{category.name}</div>
+                <div className="text-sm text-gray-500">{category.description}</div>
+              </Card>
+            </Link>
           ))}
         </div>
 
@@ -201,30 +221,35 @@ export function Specializations() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {specializations.map((spec, index) => (
-              <Card
+              <Link
                 key={index}
-                className="p-5 border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-300 group cursor-pointer"
+                href={`/specializations/${spec.slug}`}
+                className="block"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex items-center gap-4">
-                    <div className="bg-gray-100 p-3 rounded-xl group-hover:bg-blue-50 transition-colors duration-300">
-                      <spec.icon className="h-5 w-5 text-gray-600 group-hover:text-blue-600" />
-                    </div>
-                    <div className="text-right">
-                      <h4 className="font-semibold text-gray-900 mb-1 text-sm">{spec.title}</h4>
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
-                          {spec.category}
-                        </span>
-                        <span className={`text-xs px-2 py-1 rounded-full border ${getLevelColor(spec.level)}`}>
-                          {spec.level}
-                        </span>
+                <Card
+                  className="p-5 border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-300 group cursor-pointer"
+                >
+                  <div className="flex items-start justify-between">
+                    <div className="flex items-center gap-4">
+                      <div className="bg-gray-100 p-3 rounded-xl group-hover:bg-blue-50 transition-colors duration-300">
+                        <spec.icon className="h-5 w-5 text-gray-600 group-hover:text-blue-600" />
+                      </div>
+                      <div className="text-right">
+                        <h4 className="font-semibold text-gray-900 mb-1 text-sm">{spec.title}</h4>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                            {spec.category}
+                          </span>
+                          <span className={`text-xs px-2 py-1 rounded-full border ${getLevelColor(spec.level)}`}>
+                            {spec.level}
+                          </span>
+                        </div>
                       </div>
                     </div>
+                    <BadgeCheck className="h-4 w-4 text-green-500 flex-shrink-0 mt-2" />
                   </div>
-                  <BadgeCheck className="h-4 w-4 text-green-500 flex-shrink-0 mt-2" />
-                </div>
-              </Card>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>

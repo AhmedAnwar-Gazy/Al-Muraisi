@@ -22,7 +22,7 @@ export default function Home({ params
   // const t = useTranslations('home');
   return (
     <main className="min-h-screen">
-      <Header />
+      
       <Hero />
       <Stats />
       <Features />
@@ -30,7 +30,7 @@ export default function Home({ params
       <Specializations />
       <Contact />
       {/* <StoreMap/> */}
-      <Footer />
+
     </main>
   )
 }

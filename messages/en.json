@@ -275,36 +275,466 @@
       "trained": "Trained",
       "specialized": "Specialized"
     },
-    "specializations": {
-      "electrician": "Electrician",
-      "plumber": "Plumber",
-      "acTechnician": "AC Technician",
-      "painter": "Painter and Decorator",
-      "carpenter": "Carpenter and Blacksmith",
-      "tileInstaller": "Tile Installer",
-      "constructionWorker": "Construction Workers",
-      "blacksmith": "Blacksmiths",
-      "woodWorker": "Carpenters",
-      "tileWorker": "Tile Workers",
-      "painterConstruction": "Painters",
-      "cleaner": "Cleaning Workers",
-      "chef": "Chefs",
-      "nanny": "Child Caregivers",
-      "driver": "Private Drivers",
-      "security": "Security Guards",
-      "farmer": "Farmers",
-      "farmWorker": "Farm Workers",
-      "irrigationWorker": "Irrigation and Planting Workers",
-      "secretary": "Secretaries",
-      "receptionist": "Reception Staff",
-      "accountant": "Accountants",
-      "salesRep": "Sales Representatives",
-      "nurse": "Nurses",
-      "healthTech": "Health Technicians",
-      "homeCare": "Home Care Workers",
-      "loader": "Loading and Unloading Workers",
-      "generalCleaner": "General Cleaning Workers",
-      "factoryWorker": "Warehouse and Factory Workers"
+    "ctaTitle": "Ready to Start Your Project?",
+    "ctaSubtitle": "Contact us now and get the best electrical services at competitive prices with quality guarantee",
+    "ctaCall": "Call Us Now",
+    "ctaConsult": "Free Consultation",
+    "guarantee": "100% Quality Guarantee",
+    "fastResponse": "Fast Response 24/7",
+    "customerService": "Premium Customer Service"
+    ,
+    "specializationsdata": {
+      "electrician": {
+        "slug": "electrician",
+        "title": "Electrician",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Zap",
+        "description": "Handles electrical installations, maintenance, and troubleshooting in various settings.",
+        "skills": ["Wiring and circuits", "Electrical safety", "Troubleshooting", "Installation of electrical devices", "Basic electronics"],
+        "metadata": {
+          "title": "Professional Electrician Services",
+          "description": "Hire skilled electricians for electrical installation, repair, and maintenance tasks for homes and businesses."
+        },
+        "keywords": ["electrician", "electrical work", "wiring", "circuit repair", "electric maintenance", "technician", "home services"]
+      },
+      "plumber": {
+        "slug": "plumber",
+        "title": "Plumber",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Wrench",
+        "description": "Specializes in installing, repairing, and maintaining plumbing systems.",
+        "skills": ["Pipe installation", "Leak repairs", "Drain cleaning", "Fitting fixtures", "Water system maintenance"],
+        "metadata": {
+          "title": "Expert Plumbing Services",
+          "description": "Find professional plumbers for home, office, and construction plumbing installations and repairs."
+        },
+        "keywords": ["plumber", "pipes", "drain cleaning", "leak repair", "water system", "faucet installation", "technical services"]
+      },
+      "acTechnician": {
+        "slug": "ac-technician",
+        "title": "AC Technician",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Wind",
+        "description": "Installs, repairs, and maintains air conditioning and cooling systems.",
+        "skills": ["AC installation", "System maintenance", "Troubleshooting cooling issues", "Refrigerant handling", "Basic electrical knowledge"],
+        "metadata": {
+          "title": "Air Conditioning Technicians",
+          "description": "Hire certified AC technicians for installation, maintenance, and cooling system repairs."
+        },
+        "keywords": ["ac technician", "air conditioning", "cooling repair", "hvac", "maintenance", "technician", "installation"]
+      },
+      "painter": {
+        "slug": "painter",
+        "title": "Painter and Decorator",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Paintbrush",
+        "description": "Handles painting and decorating tasks for interior and exterior surfaces.",
+        "skills": ["Surface preparation", "Painting techniques", "Color matching", "Decorative finishes", "Wall treatments"],
+        "metadata": {
+          "title": "Professional Painting and Decorating",
+          "description": "Experienced painters and decorators providing interior and exterior painting services."
+        },
+        "keywords": ["painter", "decorator", "painting", "wall design", "interior decor", "paint services", "finishing"]
+      },
+      "carpenter": {
+        "slug": "carpenter",
+        "title": "Carpenter and Blacksmith",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Hammer",
+        "description": "Works with wood and metal to build, repair, and craft structures and items.",
+        "skills": ["Wood cutting and shaping", "Metalwork", "Furniture making", "Joinery", "Basic tool handling"],
+        "metadata": {
+          "title": "Carpentry and Blacksmith Services",
+          "description": "Hire skilled carpenters and blacksmiths for wood and metalwork projects."
+        },
+        "keywords": ["carpenter", "woodwork", "blacksmith", "furniture", "joinery", "handcrafted", "metalwork"]
+      },
+      "tileInstaller": {
+        "slug": "tile-installer",
+        "title": "Tile Installer",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Drill",
+        "description": "Installs and maintains tiles in floors, walls, and surfaces.",
+        "skills": ["Tile cutting", "Surface preparation", "Grouting", "Adhesive application", "Tile alignment"],
+        "metadata": {
+          "title": "Tile Installation Experts",
+          "description": "Professional tile installation for floors, walls, and decorative surfaces."
+        },
+        "keywords": ["tile installer", "tiling", "flooring", "grouting", "home improvement", "renovation", "wall tiles"]
+      },
+      "constructionWorker": {
+        "slug": "construction-worker",
+        "title": "Construction Worker",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Sparkles",
+        "description": "Performs various tasks on construction sites supporting building projects.",
+        "skills": ["Material handling", "Site cleanup", "Equipment operation", "Basic masonry", "Safety compliance"],
+        "metadata": {
+          "title": "Construction Workers and Labor",
+          "description": "Hire construction workers for general labor, masonry, and site assistance."
+        },
+        "keywords": ["construction", "labor", "building", "masonry", "helper", "infrastructure", "contractor"]
+      },
+      "blacksmith": {
+        "slug": "blacksmith",
+        "title": "Blacksmith",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Hammer",
+        "description": "Shapes and forges metal to produce tools, structures, or decorative items.",
+        "skills": ["Metal forging", "Shaping and welding", "Tool repair", "Metal finishing", "Basic design"],
+        "metadata": {
+          "title": "Professional Blacksmiths",
+          "description": "Expert blacksmiths for crafting, shaping, and repairing metal objects."
+        },
+        "keywords": ["blacksmith", "metalwork", "forging", "ironworks", "craftsman", "metal tools", "fabrication"]
+      },
+      "woodWorker": {
+        "slug": "wood-worker",
+        "title": "Carpenter",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Hammer",
+        "description": "Builds, repairs, and maintains wooden structures and furniture.",
+        "skills": ["Wood cutting and shaping", "Joinery", "Furniture making", "Finishing techniques", "Tool usage"],
+        "metadata": {
+          "title": "Woodworking and Carpentry Services",
+          "description": "Hire expert woodworkers for home and office furniture, repairs, and joinery."
+        },
+        "keywords": ["woodworker", "carpentry", "furniture", "wood design", "handmade", "joinery", "crafting"]
+      },
+      "tileWorker": {
+        "slug": "tile-worker",
+        "title": "Tile Worker",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Drill",
+        "description": "Lays and maintains tiles for floors and walls.",
+        "skills": ["Tile cutting", "Surface leveling", "Grouting", "Adhesive handling", "Tile finishing"],
+        "metadata": {
+          "title": "Tile Workers for Floors and Walls",
+          "description": "Professional tile workers for residential and commercial flooring projects."
+        },
+        "keywords": ["tile worker", "tiling", "flooring", "wall tiles", "construction", "home decor"]
+      },
+      "painterConstruction": {
+        "slug": "painter-construction",
+        "title": "Painter",
+        "category": "Technical",
+        "level": "Professional",
+        "icon": "Paintbrush",
+        "description": "Applies paint and coatings on construction projects and structures.",
+        "skills": ["Surface preparation", "Painting walls and ceilings", "Decorative finishes", "Coating application", "Clean-up and maintenance"],
+        "metadata": {
+          "title": "Construction Painters",
+          "description": "Hire painters specialized in large-scale and finishing projects for buildings."
+        },
+        "keywords": ["construction painter", "building paint", "wall coating", "interior", "exterior", "finishing"]
+      },
+      "cleaner": {
+        "slug": "cleaner",
+        "title": "Cleaning Worker",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "Droplets",
+        "description": "Performs cleaning and maintenance tasks in residential and commercial settings.",
+        "skills": ["Surface cleaning", "Dusting and polishing", "Sanitization", "Waste disposal", "Equipment handling"],
+        "metadata": {
+          "title": "Professional Cleaning Services",
+          "description": "Hire trained cleaners for residential, office, and facility cleaning services."
+        },
+        "keywords": ["cleaner", "housekeeping", "janitor", "maintenance", "disinfection", "office cleaning"]
+      },
+      "chef": {
+        "slug": "chef",
+        "title": "Chef",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "ChefHat",
+        "description": "Prepares meals and manages kitchen operations.",
+        "skills": ["Cooking", "Meal planning", "Food safety", "Kitchen management", "Recipe development"],
+        "metadata": {
+          "title": "Professional Chefs for Hire",
+          "description": "Find experienced chefs for home, restaurant, and event catering services."
+        },
+        "keywords": ["chef", "cook", "kitchen", "food", "catering", "culinary", "meal preparation"]
+      },
+      "nanny": {
+        "slug": "nanny",
+        "title": "Child Caregiver",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "Users",
+        "description": "Provides care and supervision for children in home or daycare settings.",
+        "skills": ["Child supervision", "Basic education", "Meal preparation", "Activity planning", "Safety monitoring"],
+        "metadata": {
+          "title": "Nannies and Child Caregivers",
+          "description": "Experienced child caregivers offering home and daycare services."
+        },
+        "keywords": ["nanny", "babysitter", "childcare", "caregiver", "kids", "home service"]
+      },
+      "driver": {
+        "slug": "driver",
+        "title": "Private Driver",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "Car",
+        "description": "Transports individuals safely and efficiently.",
+        "skills": ["Safe driving", "Vehicle maintenance", "Navigation", "Time management", "Customer service"],
+        "metadata": {
+          "title": "Private Drivers for Hire",
+          "description": "Professional drivers offering personal, corporate, and family transportation."
+        },
+        "keywords": ["driver", "chauffeur", "transport", "private driver", "car service", "personal driver"]
+      },
+      "security": {
+        "slug": "security",
+        "title": "Security Guard",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "Shield",
+        "description": "Protects people, property, and assets.",
+        "skills": ["Surveillance", "Patrolling", "Emergency response", "Access control", "Safety enforcement"],
+        "metadata": {
+          "title": "Professional Security Guards",
+          "description": "Hire trained security guards to protect residential and business premises."
+        },
+        "keywords": ["security guard", "protection", "safety", "surveillance", "property security", "guard services"]
+      },
+      "farmer": {
+        "slug": "farmer",
+        "title": "Farmer",
+        "category": "Agriculture",
+        "level": "Professional",
+        "icon": "Trees",
+        "description": "Cultivates crops and manages agricultural operations.",
+        "skills": ["Planting", "Irrigation", "Harvesting", "Soil management", "Equipment handling"],
+        "metadata": {
+          "title": "Professional Farmers",
+          "description": "Hire experienced farmers for crop production, maintenance, and land preparation."
+        },
+        "keywords": ["farmer", "agriculture", "farming", "crops", "irrigation", "harvest"]
+      },
+      "farmWorker": {
+        "slug": "farm-worker",
+        "title": "Farm Worker",
+        "category": "Agriculture",
+        "level": "Professional",
+        "icon": "Droplets",
+        "description": "Assists in daily farming operations.",
+        "skills": ["Planting", "Irrigation support", "Harvest assistance", "Field maintenance", "Equipment handling"],
+        "metadata": {
+          "title": "Farm Workers for Hire",
+          "description": "Reliable workers for agricultural support, irrigation, and harvesting tasks."
+        },
+        "keywords": ["farm worker", "agriculture labor", "harvest", "planting", "field work"]
+      },
+      "irrigationWorker": {
+        "slug": "irrigation-worker",
+        "title": "Irrigation and Planting Worker",
+        "category": "Agriculture",
+        "level": "Professional",
+        "icon": "Droplets",
+        "description": "Handles irrigation systems and planting tasks in farms.",
+        "skills": ["Irrigation setup", "Planting", "Soil maintenance", "Water management", "Basic farm equipment use"],
+        "metadata": {
+          "title": "Irrigation and Planting Specialists",
+          "description": "Hire workers experienced in irrigation setup, planting, and soil care."
+        },
+        "keywords": ["irrigation", "planting", "agriculture", "farm labor", "water management"]
+      },
+      "secretary": {
+        "slug": "secretary",
+        "title": "Secretary",
+        "category": "Office",
+        "level": "Professional",
+        "icon": "Calculator",
+        "description": "Provides administrative support in office settings.",
+        "skills": ["Document management", "Scheduling", "Communication", "Record keeping", "Office software"],
+        "metadata": {
+          "title": "Office Secretary Services",
+          "description": "Experienced secretaries providing administrative and clerical support."
+        },
+        "keywords": ["secretary", "admin", "office assistant", "documentation", "clerical", "organization"]
+      },
+      "receptionist": {
+        "slug": "receptionist",
+        "title": "Reception Staff",
+        "category": "Office",
+        "level": "Professional",
+        "icon": "Users",
+        "description": "Manages front desk operations and customer interactions.",
+        "skills": ["Customer service", "Call handling", "Scheduling", "Visitor management", "Basic office tasks"],
+        "metadata": {
+          "title": "Professional Reception Staff",
+          "description": "Hire receptionists to manage front desk, guests, and client communications."
+        },
+        "keywords": ["receptionist", "front desk", "office staff", "customer service", "hospitality"]
+      },
+      "accountant": {
+        "slug": "accountant",
+        "title": "Accountant",
+        "category": "Office",
+        "level": "Professional",
+        "icon": "Calculator",
+        "description": "Manages financial records and reports for organizations.",
+        "skills": ["Bookkeeping", "Financial reporting", "Budgeting", "Tax filing", "Accounting software"],
+        "metadata": {
+          "title": "Certified Accountants",
+          "description": "Hire qualified accountants for bookkeeping, auditing, and financial analysis."
+        },
+        "keywords": ["accountant", "finance", "bookkeeping", "auditing", "tax", "budget"]
+      },
+      "salesRep": {
+        "slug": "sales-representative",
+        "title": "Sales Representative",
+        "category": "Office",
+        "level": "Professional",
+        "icon": "TrendingUp",
+        "description": "Promotes and sells products or services to clients.",
+        "skills": ["Sales strategy", "Customer relationship", "Negotiation", "Market research", "Product knowledge"],
+        "metadata": {
+          "title": "Sales Representatives",
+          "description": "Professional sales reps for marketing and product promotion."
+        },
+        "keywords": ["sales", "marketing", "customer service", "promotion", "sales rep"]
+      },
+      "nurse": {
+        "slug": "nurse",
+        "title": "Nurse",
+        "category": "Healthcare",
+        "level": "Professional",
+        "icon": "Stethoscope",
+        "description": "Provides medical care and support to patients.",
+        "skills": ["Patient care", "Medication administration", "Vital signs monitoring", "Medical record keeping", "Basic procedures"],
+        "metadata": {
+          "title": "Qualified Nurses",
+          "description": "Hire professional nurses for hospitals, clinics, or home care."
+        },
+        "keywords": ["nurse", "healthcare", "medical", "patient care", "clinic", "hospital"]
+      },
+      "healthTech": {
+        "slug": "health-technician",
+        "title": "Health Technician",
+        "category": "Healthcare",
+        "level": "Professional",
+        "icon": "Heart",
+        "description": "Assists healthcare professionals in medical tasks and procedures.",
+        "skills": ["Sample collection", "Medical testing", "Equipment handling", "Patient monitoring", "Record keeping"],
+        "metadata": {
+          "title": "Healthcare Technicians",
+          "description": "Qualified health technicians for clinical and medical support."
+        },
+        "keywords": ["health technician", "lab", "medical", "equipment", "healthcare"]
+      },
+      "homeCare": {
+        "slug": "home-care-worker",
+        "title": "Home Care Worker",
+        "category": "Healthcare",
+        "level": "Professional",
+        "icon": "Heart",
+        "description": "Provides in-home care to patients and elderly individuals.",
+        "skills": ["Personal care", "Medication assistance", "Mobility support", "Meal preparation", "Household management"],
+        "metadata": {
+          "title": "Home Care Services",
+          "description": "Compassionate caregivers offering home care and elderly support services."
+        },
+        "keywords": ["home care", "caregiver", "elderly care", "nursing", "home health"]
+      },
+      "loader": {
+        "slug": "loader",
+        "title": "Loading and Unloading Worker",
+        "category": "Logistics",
+        "level": "Professional",
+        "icon": "Package",
+        "description": "Responsible for loading and unloading goods, materials, and shipments safely and efficiently.",
+        "skills": [
+          "Lifting and carrying materials",
+          "Loading and unloading trucks or containers",
+          "Inventory support",
+          "Packing and unpacking goods",
+          "Warehouse organization",
+          "Following safety procedures"
+        ],
+        "metadata": {
+          "title": "Loading and Unloading Workers",
+          "description": "Hire skilled loaders for warehouse, shipping, and logistics operations, ensuring safe and efficient handling of goods."
+        },
+        "keywords": [
+          "loader",
+          "loading worker",
+          "unloading",
+          "warehouse labor",
+          "material handling",
+          "logistics",
+          "packing"
+        ]
+      },
+      "generalCleaner": {
+        "slug": "general-cleaner",
+        "title": "General Cleaning Worker",
+        "category": "Service",
+        "level": "Professional",
+        "icon": "Droplets",
+        "description": "Performs general cleaning and maintenance tasks to keep residential, commercial, and public spaces tidy and hygienic.",
+        "skills": [
+          "Sweeping and mopping floors",
+          "Dusting and surface cleaning",
+          "Sanitizing restrooms and kitchens",
+          "Garbage disposal",
+          "Using cleaning tools and chemicals",
+          "Maintaining hygiene standards"
+        ],
+        "metadata": {
+          "title": "General Cleaning and Maintenance Workers",
+          "description": "Hire trained general cleaners for homes, offices, and facilities to maintain a clean and safe environment."
+        },
+        "keywords": [
+          "cleaner",
+          "cleaning services",
+          "janitor",
+          "housekeeping",
+          "maintenance",
+          "sanitation",
+          "office cleaning"
+        ]
+      },
+      "factoryWorker": {
+        "slug": "factory-worker",
+        "title": "Warehouse and Factory Worker",
+        "category": "Industrial",
+        "level": "Professional",
+        "icon": "Factory",
+        "description": "Supports manufacturing and warehouse operations by handling production, packaging, and material movement.",
+        "skills": [
+          "Machine operation support",
+          "Packaging and labeling",
+          "Assembly line work",
+          "Quality control assistance",
+          "Material handling and transport",
+          "Safety and equipment checks"
+        ],
+        "metadata": {
+          "title": "Factory and Warehouse Workers",
+          "description": "Reliable factory and warehouse workers available for production, assembly, and logistics support tasks."
+        },
+        "keywords": [
+          "factory worker",
+          "warehouse",
+          "production",
+          "assembly line",
+          "packing",
+          "industrial labor",
+          "manufacturing"
+        ]
+      }
     },
     "detailedSpecializations": {
       "title": "Detailed Specializations",
@@ -358,4 +788,7 @@
       "ar": "AR"
     }
   }
+
+  
+
 }

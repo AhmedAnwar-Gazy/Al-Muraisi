@@ -58,7 +58,7 @@ export function Header() {
             aria-label={t('logo.ariaLabel')}
           >
             <div className="bg-gradient-to-br from-primary to-blue-600 p-3 rounded-2xl shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-              <img src="/favicon-96x96.png" alt=""  height="24px" width="24px"/>
+              <img src="/logo.png" alt=""  height="24px" width="24px"/>
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
