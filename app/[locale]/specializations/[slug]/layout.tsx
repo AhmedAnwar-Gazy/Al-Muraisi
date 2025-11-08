@@ -80,6 +80,7 @@ const siteName = locale === 'ar' ? 'أبوسيف للخدمات' : 'AboSeaf Serv
         'max-snippet': -1,
       },
     },
+
   };
 }
 
