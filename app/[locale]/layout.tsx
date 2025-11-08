@@ -23,7 +23,7 @@ export async function generateMetadata({
   const t = (key: string) =>
     messages.metadata[key as keyof typeof messages.metadata];
 
-  const domain = "https://www.almureisi.com";
+  const domain =  `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
   return {
     title: t("title"),
@@ -84,9 +84,7 @@ export async function generateMetadata({
   };
 }
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
+
 
 export default async function RootLayout({
   children,
@@ -101,7 +99,7 @@ export default async function RootLayout({
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const t = (key: string) =>
     messages.metadata[key as keyof typeof messages.metadata];
-  const domain = "https://www.almureisi.com";
+  const domain = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
   setRequestLocale(locale);
 

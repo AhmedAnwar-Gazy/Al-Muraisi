@@ -6,15 +6,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     {
         url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
-        lastModified: new Date(),
+        lastModified: new Date("2025-11-08T16:41:50.312Z"),
         changeFrequency :"never" ,
         priority : 1.0,
     },
     {
-        url: `${baseUrl}/`,
-        lastModified: new Date(),
+        url: `${process.env.NEXT_PUBLIC_BASE_URL}ظ`,
+        lastModified: new Date("2025-11-08T16:41:50.312Z"),
         changeFrequency :"never" ,
-        priority : 1.0,        
+        priority : 0.7,        
     },
 
   ]

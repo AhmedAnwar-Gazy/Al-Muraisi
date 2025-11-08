@@ -30,11 +30,7 @@ import {
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { use } from 'react';
-interface SpecializationPageProps {
-  params: {
-    slug: string;
-  };
-}
+import { setRequestLocale } from 'next-intl/server';
 
 // Icon map for dynamic rendering
 const iconMap: Record<string, any> = {
@@ -61,15 +57,18 @@ const iconMap: Record<string, any> = {
   Building
 };
 
-export default function SpecializationPage({params
+export default function SpecializationPage({
+  params
 }: {
-  params: Promise<{ locale: string , slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-      const { slug } = use(params);
+  const { locale, slug } = use(params);
+  
+  // Set the locale for this request
+  setRequestLocale(locale);
 
-      const t = useTranslations("specializations");
-      
-  const data = useTranslations("specializations").raw("specializationsdata"); // load raw JSON data from messages/en.json
+  const t = useTranslations("specializations");
+  const data = t.raw("specializationsdata");
   
   const specialization = data[slug];
 
@@ -150,8 +149,8 @@ export default function SpecializationPage({params
           </div>
         </div>
       </section>
-      {/* Final CTA Section */}
 
+      {/* Final CTA Section */}
       <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-700">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">{t("ctaTitle")}</h2>
@@ -193,7 +192,5 @@ export default function SpecializationPage({params
         </div>
       </section>
     </div>
-
-
   );
 }

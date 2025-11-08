@@ -1,16 +1,11 @@
-import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Stats } from "@/components/stats"
 import { Features } from "@/components/features"
-import { Services } from "@/components/services"
 import { Specializations } from "@/components/specializations"
 import { Contact } from "@/components/contact"
-import { Footer } from "@/components/footer"
-import {useTranslations} from 'next-intl';
 import { use } from 'react';
 import { setRequestLocale } from 'next-intl/server';
-import StoreMap from "@/components/StoreMap"
-
+import { routing } from "@/i18n/routing";
 
 
 export default function Home({ params
@@ -26,11 +21,12 @@ export default function Home({ params
       <Hero />
       <Stats />
       <Features />
-      {/* <Services /> */}
       <Specializations />
       <Contact />
-      {/* <StoreMap/> */}
 
     </main>
   )
+}
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
 }
