@@ -1,0 +1,9 @@
+{
+  "ariaLabel": "Switch Language",
+  "languages": {
+    "english": "English",
+    "arabic": "العربية",
+    "en": "EN",
+    "ar": "AR"
+  }
+}

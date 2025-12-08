@@ -1,0 +1,38 @@
+{
+  "header": {
+    "subtitle": "Our Specialized Services",
+    "heading": "Comprehensive <primary>Solutions</primary> Covering All Your Requirements",
+    "description": "We provide an integrated package of trained workforce services to meet the needs of various sectors"
+  },
+  "services": {
+    "construction": {
+      "title": "Contracting and Construction",
+      "description": "Skilled workforce in construction and contracting"
+    },
+    "domestic": {
+      "title": "Domestic Service",
+      "description": "Trained and reliable domestic workers"
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "Qualified nurses and healthcare assistants"
+    },
+    "hospitality": {
+      "title": "Hospitality and Hotels",
+      "description": "Professional and trained hotel staff"
+    },
+    "manufacturing": {
+      "title": "Manufacturing and Maintenance",
+      "description": "Specialized technicians and maintenance workers"
+    },
+    "administration": {
+      "title": "Administration and Offices",
+      "description": "Administrative staff and secretaries"
+    }
+  },
+  "discoverMore": "Discover More",
+  "customService": {
+    "text": "Can't find the service you're looking for? <highlight>Our team is ready to help you</highlight>",
+    "button": "Custom Free Consultation"
+  }
+}

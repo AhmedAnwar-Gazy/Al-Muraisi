@@ -1,7 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getMessages } from "next-intl/server";
 import "@/app/globals.css";
 import type { Metadata } from "next";
 import OrganizationJsonLd from "@/components/seo/OrganizationJsonLd";
@@ -19,11 +19,10 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
 
-  const messages = (await import(`@/messages/${locale}.json`)).default;
-  const t = (key: string) =>
-    messages.metadata[key as keyof typeof messages.metadata];
+  const messages: any = await getMessages();
+  const t = (key: string) => messages.metadata[key];
 
-  const domain =  `${process.env.NEXT_PUBLIC_BASE_URL}`;
+  const domain = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
   return {
     title: t("title"),
@@ -96,9 +95,8 @@ export default async function RootLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
 
-  const messages = (await import(`@/messages/${locale}.json`)).default;
-  const t = (key: string) =>
-    messages.metadata[key as keyof typeof messages.metadata];
+  const messages: any = await getMessages();
+  const t = (key: string) => messages.metadata[key];
   const domain = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
   setRequestLocale(locale);
@@ -122,7 +120,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider>
           <Header />
-            {children}
+          {children}
           <Footer />
         </NextIntlClientProvider>
       </body>

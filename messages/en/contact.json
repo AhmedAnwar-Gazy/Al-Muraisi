@@ -1,0 +1,46 @@
+{
+  "header": {
+    "title": "Contact Us",
+    "heading": "Free <primary>Consultation</primary> to Provide Suitable Workforce for Your Project",
+    "description": "Our team of experts is ready to help you choose the best talents and provide optimal solutions for your requirements"
+  },
+  "stats": {
+    "support": {
+      "value": "24/7",
+      "label": "24/7 Support"
+    },
+    "response": {
+      "value": "15 minutes",
+      "label": "Average Response Time"
+    },
+    "satisfaction": {
+      "value": "100%",
+      "label": "Customer Satisfaction"
+    }
+  },
+  "methods": {
+    "phone": {
+      "title": "Call Us",
+      "description": "We are ready to answer your inquiries",
+      "details": "+966 12 345 6789",
+      "action": "Instant Call",
+      "link": "https://wa.me/966500339272"
+    },
+    "email": {
+      "title": "Email Us",
+      "description": "Send your message and we will respond within hours",
+      "details": "info@ABOSYAF.com",
+      "action": "Send Email",
+      "link": "https://mailto:maherad@gmail.com"
+    }
+  },
+  "consultation": {
+    "title": "Get a Free Specialized Consultation",
+    "description": "Leave your project details and one of our experts will contact you within 30 minutes to provide the optimal solution",
+    "buttons": {
+      "consultation": "Book Free Consultation",
+      "download": "Download Information Booklet",
+      "downloadLabel": "Download Information Booklet"
+    }
+  }
+}

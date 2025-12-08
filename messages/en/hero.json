@@ -1,0 +1,24 @@
+{
+  "slides": {
+    "0": {
+      "title": "We Provide All Types of Trained and Professional Workforce",
+      "description": "A reliable team to meet the needs of individuals and companies in all specialties"
+    },
+    "1": {
+      "title": "Reliable Workforce for All Sectors",
+      "description": "Technicians, construction workers, domestic assistants, and administrative and medical cadres"
+    },
+    "2": {
+      "title": "Fast Delivery and Quality Performance",
+      "description": "We guarantee the arrival of the right worker within 24 hours with continuous follow-up"
+    },
+    "3": {
+      "title": "Flexible Contracts Suiting All Needs",
+      "description": "Daily, temporary, permanent - with replacement guarantee and follow-up"
+    }
+  },
+  "buttons": {
+    "requestWorker": "Request a Worker Now",
+    "browseSpecialties": "Browse Specialties"
+  }
+}

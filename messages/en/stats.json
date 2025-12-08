@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "workers": {
+      "number": "2,340+",
+      "label": "Workers Available"
+    },
+    "completed": {
+      "number": "1,274+",
+      "label": "Completed Requests"
+    },
+    "companies": {
+      "number": "150+",
+      "label": "Partner Companies"
+    },
+    "satisfaction": {
+      "number": "98%",
+      "label": "Customer Satisfaction"
+    }
+  }
+}

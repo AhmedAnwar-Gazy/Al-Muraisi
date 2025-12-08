@@ -1,0 +1,22 @@
+{
+  "contactBar": {
+    "phone": "+966 12 345 6789",
+    "hours": "أحد- خميس: 8 ص - 5 م"
+  },
+  "logo": {
+    "ariaLabel": "الصفحة الرئيسية",
+    "companyName": "Al-Muraisi",
+    "international": "International"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "blog": "المدونة",
+    "contact": "اتصل بنا"
+  },
+  "mobileMenu": {
+    "ariaLabel": "فتح القائمة",
+    "title": "القائمة"
+  }
+}

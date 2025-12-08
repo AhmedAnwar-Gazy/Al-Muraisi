@@ -2,15 +2,15 @@ import { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.almureisi.com";
-  
+
   // Define your locales
   const locales = ['en', 'ar'];
-  
+
   // Import specialization data to get all slugs
-  const enMessages = await import('@/messages/en.json');
-  const specializationsData = enMessages.default.specializations.specializationsdata;
+  const specializations = await import('@/messages/en/specializations.json');
+  const specializationsData = specializations.default.specializationsdata;
   const slugs = Object.keys(specializationsData);
-  
+
   // Generate sitemap entries
   const sitemap: MetadataRoute.Sitemap = [
     // Home pages for each locale
@@ -26,7 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "never",
       priority: 1.0,
     },
-    
+
     // // Specializations listing pages
     // {
     //   url: `${baseUrl}/en/specializations`,
@@ -40,7 +40,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     //   changeFrequency: "weekly",
     //   priority: 0.9,
     // },
-    
+
     // Individual specialization pages
     ...locales.flatMap((locale) =>
       slugs.map((slug) => ({

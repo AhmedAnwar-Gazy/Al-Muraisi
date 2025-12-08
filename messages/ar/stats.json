@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "workers": {
+      "number": "2,340+",
+      "label": "عامل متاح"
+    },
+    "completed": {
+      "number": "1,274+",
+      "label": "طلب مكتمل"
+    },
+    "companies": {
+      "number": "150+",
+      "label": "شركة شريكة"
+    },
+    "satisfaction": {
+      "number": "98%",
+      "label": "رضا العملاء"
+    }
+  }
+}

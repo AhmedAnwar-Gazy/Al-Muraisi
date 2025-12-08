@@ -1,0 +1,29 @@
+{
+  "header": {
+    "subtitle": "How We Work",
+    "heading": "Simple and Reliable Process for Workforce Provision",
+    "description": "We guarantee you get the right worker with clear and direct steps"
+  },
+  "steps": {
+    "0": {
+      "title": "Service Selection",
+      "description": "Choose the category or tell us your detailed need"
+    },
+    "1": {
+      "title": "Matching and Quick Offer",
+      "description": "We send qualified candidates within 24 hours"
+    },
+    "2": {
+      "title": "Short Trial",
+      "description": "Paid trial option to ensure suitability"
+    },
+    "3": {
+      "title": "Employment and Follow-up",
+      "description": "Contract signing and support follow-up for 14 days"
+    }
+  },
+  "cta": {
+    "description": "Start your journey with us today and get the right workforce",
+    "button": "Start Now"
+  }
+}

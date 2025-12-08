@@ -1,0 +1,23 @@
+{
+  "companyName": "ABOSYAF",
+  "description": "We provide trained and reliable workforce across multiple specialties to meet the needs of individuals and companies",
+  "experience": "10 years of experience in providing skilled human resources",
+  "servicesTitle": "Services",
+  "additionalServices": "Additional Services",
+  "contactTitle": "Contact Us",
+  "services": {
+    "technical": "Technical Workforce",
+    "craft": "Crafts and Construction",
+    "domestic": "Domestic Workforce",
+    "agricultural": "Agricultural Workforce",
+    "administrative": "Administrative and Office",
+    "medical": "Medical",
+    "general": "General"
+  },
+  "contact": {
+    "phone": "+966 50 033 9272",
+    "email": "info@ABOSYAF.com",
+    "address": "Riyadh, Saudi Arabia"
+  },
+  "copyright": "© 2025 ABOSYAF. All rights reserved"
+}

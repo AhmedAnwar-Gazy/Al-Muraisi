@@ -1,0 +1,23 @@
+{
+  "companyName": "ABOSYAF",
+  "description": "نوفر عمالة مدرَّبة وموثوقة عبر تخصصات متعددة لتلبية احتياجات الأفراد والشركات",
+  "experience": "خبرة 10 سنوات في توفير الكفاءات البشرية الماهرة",
+  "servicesTitle": "الخدمات",
+  "additionalServices": "خدمات إضافية",
+  "contactTitle": "تواصل معنا",
+  "services": {
+    "technical": "العمالة الفنية",
+    "craft": "الحرف والإنشاء",
+    "domestic": "العمالة المنزلية",
+    "agricultural": "العمالة الزراعية",
+    "administrative": "إدارية ومكتبية",
+    "medical": "طبية",
+    "general": "عامة"
+  },
+  "contact": {
+    "phone": "+966 50 033 9272",
+    "email": "info@ABOSYAF.com",
+    "address": "الرياض، المملكة العربية السعودية"
+  },
+  "copyright": "© 2025 ABOSYAF. جميع الحقوق محفوظة"
+}
